@@ -28,5 +28,5 @@
   run bash error_handling.sh
 
   [ "$status" -eq 1 ]
-  [ "$output" = "Usage: ./error_handling <greetee>" ]
+  [ "$output" = "Usage: error_handling.sh <greetee>" ]
 }

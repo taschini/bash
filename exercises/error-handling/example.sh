@@ -4,7 +4,7 @@ set -o errexit
 set -o nounset
 
 if [ $# -ne 1 ]; then
-  echo "Usage: ./error_handling <greetee>"
+  echo "Usage: $0 <greetee>"
   exit 1
 else
   echo "Hello, ${1}"
